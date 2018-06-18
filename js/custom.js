@@ -58,4 +58,16 @@ $(document).ready(function(){
 		},500)
 		$(this).children(".faq_answer").addClass("active");
 	})
+
+	$('.tab_conatiner_outer .tab_container_item').click(function(){
+		$(".tab_conatiner_outer .tab_container_item").removeClass("active");
+		$(this).addClass("active");
+
+		var tab_id = $(this).attr("tab_id");
+
+		$(".tab_container_cont .tab_container_inner").removeClass("active");
+
+		$(tab_id).addClass("active")
+
+	})
 })

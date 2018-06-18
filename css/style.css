@@ -66,8 +66,9 @@ body
 
 .logo_bakeri
 {
-	max-width:150px;
-	height:45px;
+	max-width: 150px;
+    height: 36px;
+    margin-top: 6px;
 }
 
 .navbar-brand
@@ -87,7 +88,7 @@ body
 {
 	color:#444540;
 	font-family: 'dincond';
-	font-size:27px;
+	font-size:23px;
 	letter-spacing: 0.5px;
 	font-weight: 600;
 }
@@ -177,6 +178,7 @@ body
     letter-spacing: 1px;
     margin-bottom:50px;
     margin-top:0px;
+    text-transform: capitalize;
 }
 
 .step_cont figure
@@ -443,14 +445,15 @@ body
 
  .about_section .about_cont .heading_about
  {
-    font-size:61px;
-    line-height: 70px;
+    font-size:48px;
+    line-height: 60px;
     color:#444540;
     display: inline-block;
     padding-bottom: 0px;
     position: relative;
     margin-top: 70px;
     margin-bottom: 70px;
+    text-transform: capitalize;
  }
  .about_section .about_cont .heading_about:before
  {
@@ -462,7 +465,7 @@ body
     left:0px;
     bottom:0px;
     content: "";
-    box-shadow: 0px 0px 5px 0px #444540;
+    
  }
 .about_section .about_cont .width_767
 {
@@ -525,7 +528,6 @@ body
     left:0px;
     bottom:0px;
     content: "";
-    box-shadow: 0px 0px 5px 0px #fff;
  }
  .about_section .about_cont .heading_about
  {
@@ -592,11 +594,11 @@ body
 /*Get in touch start here*/
 .get_touch_section .heading_about
 {
-        max-width: 203px;
+        /*max-width: 203px;*/
 }
 .get_touch_section .get_touch_data p
 {
-    font-size:44px;
+    font-size:38px;
     line-height: 70px;
 }
 .get_touch_section input
@@ -650,7 +652,7 @@ body
 
 .find_us_section .about_cont .heading_about
 {
-    width:203px;
+    /*width:203px;*/
     color:#fff;
 }
 .find_us_section .about_cont .heading_about:before
@@ -750,10 +752,12 @@ body
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover
 {
     color:#444440;
+    
 }
 .navbar-inverse .navbar-nav>li>a
 {
     color:#444440;
+    text-transform: capitalize;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
 {
@@ -805,15 +809,15 @@ body
 
 .faq_ques
 {
-    font-size: 32px;
+    font-size: 25px;
     line-height: 38px;
     color:#43443F;
     font-family: 'helv_neu_medium';
 }
 .faq_answer
 {
-    font-size: 28px;
-    line-height: 38px;
+    font-size: 22px;
+    line-height: 28px;
     color:#43443F;
     visibility: hidden;
     height:0px;
@@ -829,8 +833,8 @@ body
 
 .faq_data
 {
-    padding-left:185px;
-    padding-right:345px;
+    padding-left:50px;
+    padding-right:50px;
     padding-top:20px;
     padding-bottom: 20px;
     margin-bottom: 30px;
@@ -841,7 +845,8 @@ body
 /*Case study page starts here*/
 .tab_conatiner_outer 
 {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    margin-top:20px;
 }
 .tab_conatiner_outer .tab_container_item
 {
@@ -854,6 +859,8 @@ body
     font-weight: 600;
     padding-bottom: 5px;
     position: relative;
+    cursor: pointer;
+
 }
 .tab_conatiner_outer .tab_container_item.active:before
 {
@@ -907,4 +914,96 @@ body
     text-decoration: underline;
 
 }
+
 /*Case study page ends here*/
+
+
+.case_study_section .title_heading {
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 5px;
+    display: inline-block;
+
+}
+.case_study_section .desc_main
+{
+    white-space: pre-line;
+    font-size:16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+
+}
+.case_study_section div p
+{
+    white-space: pre-line;
+    font-size:16px;
+    line-height: 26px;
+    margin-bottom: 0px;
+}
+.case_study_section .tab_container_cont  div
+{
+    margin-bottom: 20px;
+    
+}
+.case_study_section .title_heading:before {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #fff;
+    left: 0px;
+    bottom: 0px;
+    content: "";
+}
+.case_study_section strong
+{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-family: 'helv_neu_medium';
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.tab_container_inner
+{
+    display: none;
+}
+.tab_container_inner.active
+{
+    display: block;
+}
+
+.navbar-nav>li>a.return_back{
+    color: #fff;
+    background: #444440;
+    display: inline-block;
+    padding-left: 40px;
+}
+.navbar-nav>li>a.return_back:after {
+    content: "";
+    width: 32px;
+    height: 52px;
+    border-radius: 0%;
+    border: none;
+    position: absolute;
+    top: -2px;
+    left: 5px;
+    background: url(../images/right_arrow.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    transform: rotate(180deg);
+
+}
+
+.navbar-nav>li>a.return_back:hover
+{
+    background: #444440;
+    color:#fff;
+}
