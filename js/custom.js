@@ -17,6 +17,28 @@ $(document).ready(function(){
 		loop:true,
 		dots:false
 	});
+	$(".branch_carousel").owlCarousel(
+	{
+		items:3,
+		autoplay:true,
+		autoplayTimeout:4000,
+		nav:false,
+		loop:true,
+		dots:false,
+		margin:15,
+		responsive:
+		{
+			767:{
+				items:3,
+				margin:15,
+			},
+			560:{
+				items:2,
+				margin:15,
+			}
+		}
+	});
+	
 
 	$(".main_menu li a").click(function(){
 		$(".main_menu li a").parent("li").removeClass("active");

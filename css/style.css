@@ -100,7 +100,7 @@ body
 .bakeri_main_section
 {
 	background: #FEE2D4;
-    min-height:calc(100vh);
+    min-height:calc(100vh - 120px);
 }
 .ft_67
 {
@@ -765,6 +765,7 @@ body
 .bakeri_main_section #myVideo
 {
     width:100%;
+    height:calc(100vh - 75px);
 }
 
 .bakeri_main_section
@@ -792,8 +793,8 @@ body
 
 .faq_section .title_heading
 {
-    font-size: 67px;
-    line-height: 81px;
+    font-size: 61px;
+    line-height: 70px;
     color:#444540;
     text-align: center;
     font-weight: 600;
