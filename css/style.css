@@ -1007,3 +1007,34 @@ body
     background: #444440;
     color:#fff;
 }
+
+.bakery_technology h2 {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+}
+
+.bakery_technology ul
+{
+    list-style: decimal;
+    padding-left:25px;
+}
+.bakery_technology ul li
+{
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 5px;
+}
+
+.step_cont_new .data_text
+{
+    text-align: center;
+    line-height: 30px;
+}
+
+.bakeri_works_section_bottom .bakeri_title
+{
+    margin-top:80px;
+}
