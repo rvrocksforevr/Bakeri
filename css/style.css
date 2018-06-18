@@ -893,4 +893,18 @@ body
     display: inline-block;
     padding: 20px 30px;
 }
+
+
+.faq_answer a
+{
+    color: #444440;
+    text-decoration: underline;
+
+}
+.faq_answer a:hover
+{
+    color: #444440;
+    text-decoration: underline;
+
+}
 /*Case study page ends here*/
