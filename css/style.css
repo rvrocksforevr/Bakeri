@@ -1038,3 +1038,327 @@ body
 {
     margin-top:80px;
 }
+
+
+/*Mobile styling starts here*/
+@media(max-width:767px)
+{
+    .ft_67 {
+    font-size: 18px;
+}
+
+.anchor_btn {
+    background: #43443F;
+    color: #fff;
+    padding: 7px 39px 6px 30px;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 39px;
+    height: 27px;
+    position: relative;
+    box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.419607);
+    border: 2px solid #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-top: 16px;
+    line-height: 12px;
+}
+.anchor_btn:after {
+    content: "";
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background: url(../images/right_arrow.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: center;
+}
+
+.bakeri_title {
+    font-size: 25px;
+    color: #fff;
+    font-family: 'helv_neu_thin';
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    text-transform: capitalize;
+}
+
+.bakeri_works_section {
+    padding-top: 50px;
+ }
+
+.step_cont {
+   
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.data_cont .data_text {
+    
+    font-size: 21px;
+    
+}
+.testimonial_item .testimonial_data
+{
+    font-size:15px;
+    line-height: 22px;
+    text-align: left;
+}
+.testimonial_item .writer_name
+{
+    font-size: 12px;
+    text-align: right;
+}
+
+.testominal_carousel button span
+{
+    font-size: 55px;
+}
+
+.case_carousel .case_data
+{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    bottom: 50px;
+    left: 0%;
+    background: #fee2d4;
+    padding: 15px;
+    right: 0%;
+    margin: auto;bottom:10px;
+}
+
+.case_data_value
+{
+    color:#444440;
+    font-size: 12px;
+    line-height: 15px;
+    width:calc(100% - 114px);
+    display: inline-block;
+    vertical-align: middle;
+}
+.case_data .anchor_btn
+{
+        max-width: 110px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 7px 10px;
+    font-size: 8px;
+    line-height: 10px;
+    height: 26px;
+    text-align: left;
+    padding-left: 15px;
+}
+.anchor_btn:after
+{
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background: url(../images/right_arrow.png);
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: center;
+}
+
+.case_carousel figure img
+{
+    max-width:100%;
+    width:100% !important;
+}
+
+.case_container .owl-prev span, .case_container .owl-next span {
+    color: #fff;
+    font-size: 40px;
+    line-height: 14px;
+    display: block;
+}
+.case_container .owl-prev {
+    top: 50%;
+    position: absolute;
+    left: 3px;
+    outline: none;
+}
+.case_container .owl-next {
+    top: 50%;
+    position: absolute;
+    right: 3px;
+    outline: none;
+}
+.about_section .about_cont .heading_about
+{
+    font-size: 25px;
+    line-height: 45px; 
+    margin-top:35px;
+    margin-bottom: 20px;
+}
+.about_data p
+{
+    font-size:18px;
+    line-height: 25px;
+}
+
+.about_data strong
+{
+    font-size: 20px;
+}
+.about_data .anchor_btn
+{
+    background: #43443F;
+    color: #fff;
+    padding: 7px 39px 6px 30px;
+    display: block;
+    font-size: 12px;
+    border-radius: 39px;
+    height: 26px;
+    position: relative;
+    box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.419607);
+    border: 2px solid #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-top: 16px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+    line-height: 12px;
+    border:1px solid #fff;
+}
+
+.anchor_btn:after
+{
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    background: url(../images/right_arrow.png);
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: center;
+}
+
+.about_data p {
+    font-size: 13px;
+    line-height: 19px;
+}
+.item_data {
+    max-width: 100%;
+    padding: 10px 20px;
+}
+
+.image_item {
+    padding:30px;
+    max-width:100%;
+    width: 100%;
+    margin: auto;
+    float: none !important;
+}
+
+.item_data
+{
+    padding:0px 30px 30px 30px ;
+}
+
+.item_data .name {
+    font-size: 15px;
+    font-family: 'helv_neu_medium';
+    margin-top: 0px;
+}
+.item_data .designation
+{
+    font-size:13px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.item_data .description {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.get_touch_section .get_touch_data p {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.about_section.get_touch_section input
+{
+    width:100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.get_touch_section ::-webkit-input-placeholder
+{
+    font-size:15px;
+    padding-left:0px;
+}
+.get_touch_section textarea.message
+{
+    height: 100px;
+}
+.about_data.get_touch_data .anchor_btn
+{
+    float:none !important;
+}
+.contact_data.width_50, .get_touch_data.width_50
+{
+    width: 100%;
+}
+
+.contact_data p {
+    white-space: pre-line;
+    font-size: 17px;
+    line-height: 25px;
+}
+.find_us_section iframe
+{
+    height:200px;
+}
+.copyright_section .footer_link_cont li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.copyright_section .footer_link_cont li {
+    display: inline-block;
+    font-family: 'dincond';
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.copyright_text {
+    text-align: center;
+    color: #fff;
+    font-family: 'helv_neu_thin';
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.copyright_section {
+    background: #cb8474;
+    padding: 45px 0px 30px 0px;
+    text-align: center;
+}
+}
+/*Mobile styling ends here*/

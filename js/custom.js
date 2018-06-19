@@ -6,6 +6,23 @@ $(document).ready(function(){
 		autoplayTimeout:2000,
 		nav:true,
 		loop:true,
+		responsive:
+		{
+			0:{
+				items:1,
+				margin:40,
+			},
+			560:{
+				items:1,
+				margin:40,
+			},
+			767:
+			{
+				items:1,
+				margin:15
+			}
+			
+		}
 	});
 
 	$(".case_carousel").owlCarousel(
@@ -19,7 +36,7 @@ $(document).ready(function(){
 	});
 	$(".branch_carousel").owlCarousel(
 	{
-		items:3,
+		
 		autoplay:true,
 		autoplayTimeout:4000,
 		nav:false,
@@ -28,14 +45,20 @@ $(document).ready(function(){
 		margin:15,
 		responsive:
 		{
-			767:{
-				items:3,
-				margin:15,
+			0:{
+				items:1,
+				margin:10,
 			},
 			560:{
 				items:2,
 				margin:15,
+			},
+			767:
+			{
+				items:3,
+				margin:15
 			}
+			
 		}
 	});
 	
