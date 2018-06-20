@@ -63,7 +63,7 @@ $(document).ready(function(){
 	});
 	
 
-	$(".main_menu li a").click(function(){
+	$(".main_menu li a, .footer_link_cont li a").click(function(){
 		$(".main_menu li a").parent("li").removeClass("active");
 		$(this).parent("li").addClass("active");
 
